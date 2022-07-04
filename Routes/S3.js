@@ -6,6 +6,7 @@ import {
   presignedFileUrl,
   listObjects,
   listUploads,
+  searchUploads,
   saveFileToDB,
   deleteFile,
   updatePrivacy,
@@ -23,6 +24,7 @@ router.route("/downloadObject").get(downloadUrl);
 router.route("/signedUrl").post(verifyUser, presignedFileUrl);
 router.route("/presignedAvatarUrl").post(verifyUser, presignedAvatarUrl);
 router.route("/listUploads").post(listUploads);
+router.route("/searchUploads").post(searchUploads);
 router.route("/saveFileToDB").post(saveFileToDB);
 router.route("/deleteFile").post(deleteFile);
 router.route("/updatePrivacy").post(updatePrivacy);

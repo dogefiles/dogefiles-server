@@ -1,6 +1,7 @@
 export { default as presignedAvatarUrl } from "./s3.presignedAvatarUrl.js";
 export { default as presignedFileUrl } from "./s3.presignedFileUrl.js";
 export { default as listObjects } from "./s3.listObjects.js";
+export { default as searchUploads } from "./s3.searchUploads.js";
 export { default as listUploads } from "./s3.listUploads.js";
 export { default as saveFileToDB } from "./s3.saveFileToDB.js";
 export { default as deleteFile } from "./s3.deleteFile.js";
